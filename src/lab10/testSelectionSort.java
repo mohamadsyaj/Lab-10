@@ -29,11 +29,11 @@ public class testSelectionSort {
         arr[1] = 9;
         arr[2] = 7;
         arr[3] = 11;
-        arr[4] = 3;
+        arr[4] = 5;
         
         int[] Sortedarr = new int[5];
         Sortedarr[0] = 1;
-        Sortedarr[1] = 3;
+        Sortedarr[1] = 5;
         Sortedarr[2] = 7;
         Sortedarr[3] = 9;
         Sortedarr[4] = 11;
@@ -49,13 +49,13 @@ public class testSelectionSort {
     public void testNegative(){
     	int[] arr = new int[5];
         arr[0] = -6;
-        arr[1] = -11;
+        arr[1] = -12;
         arr[2] = -4;
         arr[3] = -5;
         arr[4] = -9;
         
         int[] Sortedarr = new int[5];
-        Sortedarr[0] = -11;
+        Sortedarr[0] = -12;
         Sortedarr[1] = -9;
         Sortedarr[2] = -6;
         Sortedarr[3] = -5;
